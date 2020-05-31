@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        nav ul {
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin: 10px 20px;
+        }
+        nav ul li {
+            display: inline-block !important;
+            list-style: none;
+            padding: 0 5px;
+        }
+        nav ul li img {
+            width: 2vw !important;
+            border-radius: 50%;
+            background-color: #eee;
+            padding: 20px 10px;
+        }
+        .container {
+            margin-top: 10em;
+            text-align: center !important;
+        }
+        input {
+            margin-top: 30px;
+            width: 40vw;
+            height: 5vh;
+            border-radius: 50px;
+            border: 1px solid rgb(171, 172, 171);
+        }
+        input:hover {
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, .35);
+        }
+        button {
+            margin: 20px 10px;
+            padding: 10px 8px;
+            border: 0;
+        }
+        a {
+            text-decoration: none;
+            margin: 0 3px;
+        }
+        p {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a>Gmail</a>
+            </li>
+            <li>
+                <a>Images</a>
+            </li>
+            <li>
+                <a>#</a>
+            </li>
+            <li>
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
+        <br>
+        <input type="text">
+        <br>
+        <button type="button"> Google Search </button>
+        <button type="button"> I'm feeling lucky </button>
+        <p>Google offered in: 
+            <a href="#"> Francais</a>
+            <a href="#"> Kiswahili</a>
+            <a href="#"> Kinyarwanda</a>
+        </p>
+    </div>
+</body>
+</html>
